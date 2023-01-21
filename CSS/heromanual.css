@@ -1,0 +1,47 @@
+.hero-manual-container {
+  
+    margin-top: 10px;
+}
+.hero-manual-container .hero-manual-hamburger img {
+    width: 30px;
+}
+.hero-manual-container .hero-manual-header {
+    display: flex;
+    background: #8E0E00;  
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00); 
+    align-items: center;
+}
+.hero-manual-container .hero-manual-hamburger-text p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 10px;
+    
+}
+.hero-manual-container .hero-manual-links-main {
+    display: none;
+}
+
+     .hero-manual-image img {
+        width: 330px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /* padding: 10px; */
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+}
+@media screen and (min-width:992px) {
+    .hero-manual-container .hero-manual-hamburger {
+        display: none;
+    }
+    .hero-manual-container .hero-manual-links-main {
+        display: flex;
+    }
+    .hero-manual-container .hero-manual-parts {
+        display: flex;
+    }
+}
