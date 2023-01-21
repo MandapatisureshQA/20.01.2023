@@ -33,6 +33,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 5px;
+    height: 93vh;
+    overflow-y: auto;
 }
 
 .hero-sidebar-manual-container .nav-link {
