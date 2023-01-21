@@ -33,6 +33,7 @@
         /* padding: 10px; */
         box-shadow: 0 0 10px black;
         border-radius: 10px;
+        
 }
 @media screen and (min-width:992px) {
     .hero-manual-container .hero-manual-hamburger {
@@ -40,6 +41,27 @@
     }
     .hero-manual-container .hero-manual-links-main {
         display: flex;
+    }
+    .hero-manual-container .hero-manual-links {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        background: grey;
+    }
+    .hero-manual-container .nav-link {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+    .hero-manual-container .nav-link.active {
+        background: white;
+        color: #000;
     }
     .hero-manual-container .hero-manual-parts {
         display: flex;
