@@ -36,6 +36,9 @@
         
 }
 @media screen and (min-width:992px) {
+    .hero-manual-container {
+        /* background: gray; */
+    }
     .hero-manual-container .hero-manual-hamburger {
         display: none;
     }
@@ -49,10 +52,11 @@
         row-gap: 5px;
         margin-top: 10px;
         margin-left: 10px;
-        background: grey;
+        height: 90vh;
+        overflow: scroll;
     }
     .hero-manual-container .nav-link {
-        color: white;
+        color: black;
         font-size: 14px;
         font-weight: bold;
         margin-top: 10px;
@@ -60,10 +64,20 @@
         border-radius: 4px;
     }
     .hero-manual-container .nav-link.active {
-        background: white;
-        color: #000;
+        background: black;
+        color: white;
     }
     .hero-manual-container .hero-manual-parts {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+       
+
+    }
+    .hero-manual-content {
+        background: gray;
+    }
+    .hero-manual-content .hero-manual-image img {
+        text-align: center;
+        width: 50%;
     }
 }
