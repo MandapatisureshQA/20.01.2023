@@ -6,22 +6,26 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: -100%;
+    right: 100%;
     transition: all 0.4s linear;
-    z-index: 9;
+    z-index: 21;
 }
 .hero-sidebar-manual-container.manual-show-sidebar {
-    left: 0;
+    right: 30%;
     opacity: 1;
 }
 .hero-sidebar-manual-container .logo-section {
     filter: invert(1);
+    margin-left: 115px;
+}
+.hero-sidebar-manual-container .logo-section img {
+ width: 38px;
 }
 .hero-sidebar-manual-container .hero-sidebar-close-button {
     justify-self: flex-end;
 }
 .hero-sidebar-manual-container .hero-sidebar-close-button img{
-    width: 30px;
+    width: 25px;
     
 }
 .hero-sidebar-manual-container .hero-sidebar-manual-header {
@@ -36,13 +40,14 @@
     height: 87vh;
     overflow-y: auto;
     margin-top: 20px;
+    margin-left: 110px;
 }
 
 
 .hero-sidebar-manual-container .nav-link {
     color: white;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     padding: 5px ;
     margin-left: 10px;
     border-radius: 5px;
