@@ -5,31 +5,42 @@
 }
 .hero-manual-content  .menu-content h2 {
     color: red;
+    font-size: 23px;
     text-align: center;
     background: black;
     border-radius: 3px;
     box-shadow: 0 0 10px black;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 5px;
 }
 .hero-manual-content  .menu-content h3 {
     color: white;
-    width: 55%;
+    width: 75%;
     margin-top: 10px;
     padding: 5px;
     margin-bottom: 10px;
     background: black;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 3px;
     box-shadow: 0 0 10px black;
 
 }
+
+.hero-manual-content .menu-content h4 {
+    background: black;
+    color: red;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+
+}
 .hero-manual-content  .menu-content h5 {
     font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 .hero-manual-content  .menu-content p {
     font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .hero-manual-content  .arrows {
     display: flex;
@@ -42,4 +53,29 @@
 .hero-manual-content .orderedlist {
     margin-left: 15px;
     margin-right: 15px;
+    
+}
+.hero-manual-content .orderedlist li {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 8px;    
+}
+
+
+@media screen and (min-width:992px) {
+    .hero-manual-content {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-manual-content .menu-content h4 {
+        width: 30%;
+        background: black;
+        color: red;
+        box-shadow: 0 0 5px black;
+        padding: 5px;
+    
+    }
+    
+     
 }
