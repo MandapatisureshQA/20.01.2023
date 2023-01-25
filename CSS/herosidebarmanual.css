@@ -41,6 +41,7 @@
     overflow-y: auto;
     margin-top: 20px;
     text-align: center;
+    float: right;
     /* margin-left: 120px; */
 }
 
