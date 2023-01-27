@@ -40,7 +40,7 @@
     color: white;
     box-shadow: 0 0 5px black;
     padding: 5px;
-
+    margin-top: 10px;
 }
 .hero-manual-content  .menu-content h5 {
     font-size: 15px;
@@ -72,13 +72,19 @@
     margin-bottom: 8px;    
     font-size: 15px;
 }
-
+.hero-manual-content .hero-content-image img {
+    display: block;
+    width: 290px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+}
 
 @media screen and (min-width:992px) {
     .hero-manual-content {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 20px;
     }
     .hero-manual-content .menu-content h4 {
         width: 30%;
@@ -90,6 +96,12 @@
         box-shadow: 0 0 5px black;
         padding: 5px;
     
+    }
+    .hero-manual-content .hero-content-image img {
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
     
      
