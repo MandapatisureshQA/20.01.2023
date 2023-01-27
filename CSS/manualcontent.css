@@ -75,8 +75,8 @@
 .hero-manual-content .hero-content-image img {
     display: block;
     width: 290px;
-    /* margin-right: auto; */
-    /* margin-left: auto; */
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media screen and (min-width:992px) {
