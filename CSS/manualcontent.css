@@ -64,7 +64,6 @@
 .hero-manual-content .orderedlist {
     margin-left: 15px;
     margin-right: 15px;
-
 }
 .hero-manual-content .orderedlist li {
     margin-left: 15px;
@@ -74,7 +73,7 @@
 }
 .hero-manual-content .hero-content-image img {
     display: block;
-    width: 290px;
+    width: 330px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -99,7 +98,7 @@
     }
     .hero-manual-content .hero-content-image img {
         display: block;
-        width: 80%;
+        width: 70%;
         margin-right: auto;
         margin-left: auto;
     }
