@@ -14,6 +14,7 @@
 }
 .hero-manual-container .hero-manual-hamburger img {
     width: 30px;
+    
 }
 .hero-manual-container .hero-manual-header {
     display: flex;
@@ -68,7 +69,7 @@
         row-gap: 5px;
         margin-top: 10px;
         margin-left: 10px;
-        height: 90vh;
+        height: 85vh;
         overflow: scroll;
     }
 

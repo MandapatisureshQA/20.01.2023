@@ -49,6 +49,7 @@
     margin-top: 15px;
     margin-bottom: 5px;
     letter-spacing: 1px;
+    color: #8E0E00;
 }
 .hero-manual-content  .menu-content p {
     font-size: 15px;
@@ -56,6 +57,7 @@
     margin-top: 15px;
     line-height: 20px;
     letter-spacing: 0.25px;
+    color: #8E0E00;
 }
 .hero-manual-content  .arrows {
     display: flex;
@@ -64,12 +66,13 @@
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: bold;
+    color: #8E0E00;
 }
 .hero-manual-content .orderedlist {
     margin-left: 15px;
     margin-right: 15px;
     margin-top:10px;
-
+    color: #8E0E00;
 }
 .hero-manual-content .orderedlist li {
     margin-left: 15px;
