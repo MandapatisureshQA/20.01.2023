@@ -5,6 +5,15 @@
     background: linear-gradient(to right, #1F1C18, #8E0E00); 
 
 }
+
+.navbar-container.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transition: all 0.3s linear;
+}
+
 .navbar-container .navbar-center {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -2,6 +2,14 @@
   
     margin-top: 10px;
 }
+
+.hero-manual-container .hero-manual-header.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    transition: all 0.3s linear;
+}
 .hero-manual-container .hero-manual-hamburger img {
     width: 30px;
 }
@@ -38,7 +46,13 @@
 @media screen and (min-width:992px) {
     .hero-manual-container {
         /* background: gray; */
+        
     }
+
+    .hero-manual-container .hero-manual-header.sticky-nav {
+       display: none;
+    }
+    
     .hero-manual-container .hero-manual-hamburger {
         display: none;
     }
@@ -46,6 +60,7 @@
         display: flex;
     }
     .hero-manual-container .hero-manual-links {
+        position: fixed;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -55,6 +70,8 @@
         height: 90vh;
         overflow: scroll;
     }
+
+
     .hero-manual-container .nav-link {
         color: black;
         font-size: 14px;
