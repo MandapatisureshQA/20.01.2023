@@ -30,7 +30,7 @@
     /* background: black; */
     border-radius: 3px;
     box-shadow: 0 0 10px black;
-
+    letter-spacing: 1px;
 }
 
 .hero-manual-content .menu-content h4 {
@@ -42,11 +42,13 @@
     box-shadow: 0 0 5px black;
     padding: 5px;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 .hero-manual-content  .menu-content h5 {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 5px;
+    letter-spacing: 1px;
 }
 .hero-manual-content  .menu-content p {
     font-size: 15px;
@@ -89,6 +91,9 @@ td, th {
     border:  1px solid #1F1C18;
     text-align: left;
     padding: 8px;
+}
+th{
+    text-align: center;
 }
 
 @media screen and (min-width:992px) {
