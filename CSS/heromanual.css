@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     margin-left: 40px;
-    margin-top: -2px;
+    margin-bottom: -2px;
     z-index: 19;
     transition: all 0.3s linear;
 }
