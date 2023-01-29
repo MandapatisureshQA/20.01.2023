@@ -10,6 +10,8 @@
     transition: all 0.4s linear;
     z-index: 21;
 }
+
+
 .hero-sidebar-manual-container.manual-show-sidebar {
     right: 0;
     opacity: 1;
