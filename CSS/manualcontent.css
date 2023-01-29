@@ -94,9 +94,12 @@ td, th {
     border:  1px solid #1F1C18;
     text-align: left;
     padding: 8px;
+    color: #8E0E00;
 }
 th{
     text-align: center;
+    color: #8E0E00;
+    font-weight: bold;
 }
 
 @media screen and (min-width:992px) {

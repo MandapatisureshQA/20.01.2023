@@ -148,7 +148,7 @@
                                         <div class="hero-content-image">
                                             <img src="../Images/Manual_Images/Levels-of-Testing.png" alt="">
                                         </div>
-                                        <h4>1. Unit Testing</h4>
+                                        <h3>1. Unit Testing</h3>
                                         <ol class="orderedlist">
                                             <li>A unit is a single component or module of a software</li>
                                             <li>Unit Testing conducts a single program or single module</li>
@@ -157,9 +157,81 @@
                                             <li>Unit Testing Techniques
                                                 <ul>
                                                     <li>Basis Path Testing</li>
+                                                    <li>Control Structure Testing
+                                                        <ul>
+                                                            <li>Conditional Coverage</li>
+                                                            <li>Loops Coverage</li>
+                                                        </ul>
+                                                        <li>Mutation Testing</li>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ol>
+                                        <h3>2. Integration Testing</h3>
+                                        <ol class="orderedlist">
+                                            <li>Integration Testing is performed 2 or more modules</li>
+                                            <li>Integration Testing is focuses on checking data communication between multiple modules.</li>
+                                            <li>Integration Testing is White Box Testing technique.</li>
+                                        </ol>
+                                        <div class="hero-content-image">
+                                            <img src="../Images/Manual_Images/Integration1.jpg" alt="">
+                                        </div>
+                                        <h4>Types of Integration Testing</h4>
+                                        <ol class="orderedlist">
+                                            <li>Incremental Integration Testing</li>
+                                            <li>Non-Incremental Integration Testing</li>
+                                        </ol>
+                                        <h4>1. Incremental Integration Testing</h4>
+                                        <ul class="orderedlist ">
+                                            <li>Incrementally adding the modules and Testing the data flow between the modules</li>
+                                            <li>Incremental Integration Testing has three approaches
+                                                <ol>
+                                                    <li>Top-down Incremental Integration Testing</li>
+                                                    <li> Bottom-up Incremental Integration Testing</li>
+                                                    <li>Hybrid/Sandwich Apprach</li>
+                                                </ol>
+                                            </li>
+                                        </ul>
+                                        <h4>1.1. Top-Down Incremental Integration Testing</h4>
+                                        <p>Incrementally adding the modules and testing the dataflow between the modules. And ensure the module added is the child of previous module.</p>
+                                        <div class="hero-content-image">
+                                            <img src="../Images/Manual_Images/topdown.png" alt="">
+                                        </div>
+                                        <h4>1.2. Bottom-up Incremental Integration Testing</h4>
+                                        <p>Incrementally adding the modules and testing the dataflow between the modules. And ensure the module added is the parent of the previous module.</p>
+                                        <div class="hero-content-image">
+                                            <img src="../Images/Manual_Images/bottomup.png" alt="">
+                                        </div>
+                                        <h4>1.3. Hybrid/Sandwich Approach</h4>
+                                        <p>Combination of 	Top-Down & Bottom-Up approach is called Sandwich/Hybrid Approach.</p>
+                                        <h4>2. Non - Incremental Integration Testing/ Big Bang Testing</h4>
+                                        <p>Adding all modules in a single shot and test data flow between modules.</p>
+                                        <h5>Drawbacks</h5>
+                                        <ul class="orderedlist">
+                                            <li>We might miss data flow between some of the modules.</li>
+                                            <li>If you find any defect, we can’t understand the root cause of defect.</li>
+                                        </ul>
+                                        <h3>3. System Testing</h3>
+                                        <ol class="orderedlist">
+                                            <li>Testing over all functionality of the application with respective client requirements.
+                                            <li>It is a black box testing technique.</li>    
+                                            <li>This testing is conducted by testing team.</li>    
+                                            <li>After completion of component and integration level testing's we start System testing.</li>    
+                                            <li>Before conducting system testing, we should know the customer requirements.</li>    
+                                        </ol>
+                                        <h5>System Testing focuses on below aspects</h5>
+                                        <ul class="orderedlist">
+                                            <li>User Interface Testing(GUI)</li>
+                                            <li>Usability Testing</li>
+                                            <li>Functional Testing</li>
+                                            <li>Non-Functinal Testing</li>
+                                        </ul>
+                                        <h3>4. User Acceptance Testing(UAT)</h3>
+                                        <p>After completion of System Testing UAT team conducts acceptance testing in two levels</p>
+                                        <ul class="orderedlist">
+                                            <li><b>Alpha Testing :</b> Alpha occurs after all features are developed, have been tested through the Development/ QA organizations, and have been signed off by the Product Owner.</li>
+                                            <li><b>Beta Testing : </b> Beta Testing is type of user acceptance testing where the product team gives a nearly finished product to a group of target users to evaluate product performance in the real world.</li>
+                                        </ul>
                                         <div class="arrows">
                                             <div><a href="./verificationtech.html">&#8592; Prev</a></div>
                                             <div><a href="./systemtesttech.html">Next &#8594;</a></div>
