@@ -38,21 +38,23 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 10px;
     height: 87vh;
     overflow-y: auto;
     margin-top: 20px;
     /* margin-left: 120px; */
+
 }
 
 
 .hero-sidebar-manual-container .nav-link {
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px ;
     margin-left: 10px;
     border-radius: 5px;
+    letter-spacing: 1px;
 }
 
 
