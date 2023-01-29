@@ -5,8 +5,10 @@
 
 .hero-manual-container .hero-manual-header.sticky-nav {
     position: fixed;
+    background: none;
     top: 0;
     left: 0;
+    margin-left: 40px;
     z-index: 19;
     transition: all 0.3s linear;
 }
