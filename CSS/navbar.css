@@ -1,5 +1,6 @@
 .navbar-container {
-   width: 100%; 
+   width: 100%;
+  max-height: 50px; 
     background: #8E0E00;  
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
     background: linear-gradient(to right, #1F1C18, #8E0E00); 
@@ -16,6 +17,7 @@
 
 .navbar-container .navbar-center {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 .navbar-container .hamburger {
