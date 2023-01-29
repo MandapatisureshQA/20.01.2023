@@ -1,7 +1,5 @@
 .hero-manual-container {
-  
     margin-top: 10px;
-    
 }
 
 .hero-manual-container .hero-manual-header.sticky-nav {
@@ -10,6 +8,7 @@
     top: 0;
     left: 0;
     margin-left: 40px;
+    margin-top: -5px;
     z-index: 19;
     transition: all 0.3s linear;
 }
@@ -27,8 +26,7 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
-    margin-left: 5px;
-    padding: 10px;
+    padding: 5px;
     
 }
 .hero-manual-container .hero-manual-links-main {
