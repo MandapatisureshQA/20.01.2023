@@ -16,6 +16,7 @@
     box-shadow: 0 0 10px black;
     margin-bottom: 20px;
     padding: 5px;
+    letter-spacing: 1px;
 }
 .hero-manual-content  .menu-content h3 {
     color: white;
@@ -52,6 +53,7 @@
     margin-bottom: 15px;
     margin-top: 15px;
     line-height: 20px;
+    letter-spacing: 0.25px;
 }
 .hero-manual-content  .arrows {
     display: flex;
@@ -76,6 +78,15 @@
     width: 330px;
     margin-right: auto;
     margin-left: auto;
+}
+table {
+    text-align: center;
+}
+
+td, th {
+    border:  1px solid #1F1C18;
+    text-align: left;
+    padding: 8px;
 }
 
 @media screen and (min-width:992px) {
