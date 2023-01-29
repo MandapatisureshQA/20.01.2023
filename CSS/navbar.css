@@ -17,7 +17,6 @@
 
 .navbar-container .navbar-center {
     display: grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 .navbar-container .hamburger {
