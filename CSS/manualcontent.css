@@ -86,6 +86,14 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.hero-manual-content .hero-content-image1 img {
+    display: block;
+    /* width: 200px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
 table {
     text-align: center;
 }
