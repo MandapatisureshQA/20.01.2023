@@ -58,7 +58,7 @@
     margin-top: 15px;
     line-height: 20px;
     letter-spacing: 0.25px;
-    color: #8E0E00;
+    /* color: #8E0E00; */
 }
 .hero-interview-content  .arrows {
     display: flex;
