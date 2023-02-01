@@ -62,15 +62,25 @@
     .hero-manual-container .hero-manual-links-main {
         display: flex;
     }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+    }    
     .hero-manual-container .hero-manual-links {
         position: fixed;
+        width: 22%;
         list-style: none;
         display: flex;
         flex-direction: column;
         row-gap: 5px;
         margin-top: 10px;
         margin-left: 5px;
-        height: 85vh;
+        height: 80vh;
         overflow: scroll;
     }
 
