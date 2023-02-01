@@ -1,7 +1,7 @@
 .hero-interview-content {
     margin-left: 13px;
     margin-right: 13px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 .hero-interview-content  .menu-content h2 {
     color: white;
@@ -15,6 +15,7 @@
     border-radius: 3px;
     box-shadow: 0 0 10px black;
     margin-bottom: 20px;
+    margin-top: -80px;
     padding: 5px;
     letter-spacing: 1px;
 }
@@ -45,12 +46,12 @@
     letter-spacing: 1px;
 }
 .hero-interview-content  .menu-content h5 {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 5px;
     letter-spacing: 1px;
     /* color: #8E0E00; */
-    color: red
+    color: red;
 }
 .hero-interview-content  .menu-content p {
     font-size: 17px;
@@ -157,14 +158,23 @@ p {
     letter-spacing: 2px;
 }
 
+.hero-interview-content .qa-content-image {
+margin-top: -80px;
+}
+
+.hero-interview-content .qa-content-image img {
+    width: 320px;
+
+}
 
 @media screen and (min-width:992px) {
-    .hero-manual-content {
-        width: 90%;
+    .hero-interview-content {
+        width: 1050px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
     }
+    
     .hero-manual-content .menu-content h4 {
         width: 30%;
         background: #8E0E00;  
@@ -186,4 +196,43 @@ p {
     .footer-container-interview   .navbar-links {
         flex-direction: row;
     }
+
+    .hero-manual-container .hero-interview-links{
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        flex-direction: row;
+        column-gap: 30px;
+        background: #8E0E00;  
+        background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+        background: linear-gradient(to right, #1F1C18, #8E0E00); 
+        
+    }
+    .hero-manual-container .nav-link {
+        display: flex;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .hero-manual-container .nav-link.active {
+        background: white;
+        color: #000;
+    }
+    .hero-manual-container .hero-manual-hamburger-text {
+        display: none;
+    }
+    .hero-interview-content .qa-content-image {
+        margin-left: 90px;
+    }
+    .hero-interview-content .qa-content-image img {
+        width: 200px;
+        display: inline;
+        column-gap: 130px;
+    }
+
 }
