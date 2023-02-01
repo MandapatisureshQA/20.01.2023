@@ -50,7 +50,7 @@
     margin-bottom: 5px;
     letter-spacing: 1px;
     /* color: #8E0E00; */
-    color: blue;
+    color: red
 }
 .hero-interview-content  .menu-content p {
     font-size: 17px;
@@ -73,7 +73,8 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top:10px;
-    color: #8E0E00;
+    /* color: #8E0E00; */
+    
 }
 .hero-interview-content .orderedlist li {
     margin-left: 10px;
