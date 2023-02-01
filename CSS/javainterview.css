@@ -49,7 +49,8 @@
     margin-top: 15px;
     margin-bottom: 5px;
     letter-spacing: 1px;
-    color: #8E0E00;
+    /* color: #8E0E00; */
+    color: blue;
 }
 .hero-interview-content  .menu-content p {
     font-size: 17px;
