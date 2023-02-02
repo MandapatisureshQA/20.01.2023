@@ -8,11 +8,14 @@
     border-radius: 10px;
 
 }
-
+.hero-container img:hover {
+    transform:  scale(1.25);
+}
 
 @media screen and (min-width:992px) {
     .hero-container .image img{ 
-        width: 500px;
+        width: 400px;
+        height: 280px;
         box-shadow: 0 0 10px black;
         margin-top: 20px;
         margin-left: auto;
