@@ -124,6 +124,9 @@ th{
     margin-left: auto;
     margin-right: auto;
    }
+   .hero-interview-content .menu-content .orderedlist {
+    margin-left: 35px;
+   }
     .hero-interview-links {
         display: flex;
         list-style: none;

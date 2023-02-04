@@ -97,6 +97,7 @@
                     <p>Selenium is a robust test automation suite that is used for automating web-based applications. It supports       
                         multiple browsers, programming languages and platforms.</p>
                     <hr>
+
                     <h5>2. What are different forms of selenium?</h5>
                     <p>Selenium comes in four forms</p>
                     <ul class="orderedlist">
@@ -106,6 +107,7 @@
                           <li>Selenium Grid - Allows selenium tests to run in parallel across multiple machines. </li>
                     </ul>
                     <hr>
+
                     <h5>3. What are some advantages of selenium?</h5>
                     <ul class="orderedlist">
                         <li>Selenium is open source and free to use without any licencing cost.</li>
@@ -116,6 +118,7 @@
                         <li>Using Selenium grid component, distributed testing can be carried out on remote machines possible.</li>
                     </ul>
                     <hr>
+
                     <h5>4. What are some limitations of selenium?</h5>
                     <ul class="orderedlist">
                         <li>We cannot test desktop application using selenium.</li>
@@ -124,9 +127,10 @@
                         <li>We have to rely on external libraries and tools for performing tasks like - logging (log4]), testing framework-(testNG, JUnit), reading from external files (POI for excels) etc. </li>
                     </ul>
                     <hr>
+
                     <h5>5. Which all browsers/drivers are supported by Selenium Webdriver? </h5>
+                    <p>Some commonly used browsers supported by selenium are</p>
                     <ul class="orderedlist">
-                        <p>Some commonly used browsers supported by selenium are</p>
                         <li>Google Chrome - Chrome Driver</li>
                         <li>Firefox - FireFoxDriver</li>
                         <li>Internet Explorer – InternetExplorerDriver</li>
@@ -136,11 +140,13 @@
                         <li>IOS-ios-driver/Appium </li>
                     </ul>
                     <hr>
+
                     <h5>6. Can we test API’s or web services using Selenium Webdriver?</h5>
                     <p>No Selenium webdriver uses browser’s native method to automate the web applications. Since web services are  
                         headless, so we cannot automate web services using selenium webdriver.
                    </p>
                    <hr>
+
                    <h5>7. What are the testing type supported by Selenium WebDriver?</h5>
                    <p>Selenium webdriver can be user for performing automated functional and regression testing</p>
                    <hr>
@@ -156,10 +162,12 @@
                         <li>partialLinkText</li>
                    </ul>
                    <hr>
-                   <h5>What is an XPath?</h5>
+
+                   <h5>9. What is an XPath?</h5>
                    <p>XPath or XML path is a query language for selecting nodes from XML documents. XPath is one of the locators    
                     supported by selenium webdriver.</p>
                     <hr>
+
                     <h5>10. What is an relative XPath?</h5>
                     <ul class="orderedlist">
                         <li>A relative XPath is a way of locating an element using an XML  expression beginning from anywhere in the HTML document. There are different ways of creating relative XPaths which are used for creating robust
@@ -168,6 +176,80 @@
                     </ul>
                     <hr>
                     
+                    <h5>11. What is absolute XPath?</h5>
+                    <ul class="orderedlist">
+                        <li>An absolute XPath is a way of locating an element using an XML expression beginning from root node i.e. html node is case of web pages. The main disadvantage of absolute xpath is that even with slightest change in the UI or any element the whole absolute XPath fails.</li>
+                        <li>Example : html/body/div/div[2]/div/div/div[1]/div/input</li>
+                    </ul>
+                    <hr>
+                    
+                    <h5>12. What is the difference between single slash (/) and double slash (//) in XPath?</h5>
+                    <ul class="orderedlist">
+                        <li>In XPath a single slash is used for creating XPaths with absolute paths beginning from root node.</li>
+                        <li>Whereas double slash is used for creating relative XPaths.</li>
+                    </ul>
+                    <hr>
+
+                    <h5>13. Which XPath you will prefer to use? Why?</h5>
+                    <ul class="orderedlist">
+                        <li>Normally we prefer to use Relative XPath.</li>
+                        <li>Relative XPath can identify element even though some UI changes happed, but can't identify by Absolute 
+                            Xpath.</li>
+                    </ul>
+                    <hr>
+
+                    <h5>15. How can we inspect the web element attributes in order to use them in different locators?</h5>
+                    <p>Using Chropath or developer tools we can inspect the specific web elements.
+                        Chropath is a plugin that provides xpaths and CSS Selectors. From automation perspective, 
+                        "Right click on page inspect element" is used specifically for inspecting web-elements in order to use their 
+                        attributes like id, class, name etc. in different locators.</p>
+                    <hr>
+                     
+                    <h5>16. How can we locate an element by only partially matching its attributes value in Xpath?</h5>
+                    <ul class="orderedlist">
+                        <li>Using contains() method we can locate an element by partially matching its attribute's7 value. This is particularly helpful in the scenarios where the attributes have dynamic values with certain constant part.
+                            <p><b>xPath expression = //*[contains(@name, 'user')]</b></p>
+                        </li>
+                        <li>The above statement will match the all the values of name attribute containing the word 'user' in them. </li>
+                    </ul>
+                    <hr>
+
+                    <h5>How can we locate elements using their text in XPath?</h5>
+                    <ul class="orderedlist">
+                        <li>•	Using the text() method<p><b>xPath Expression = //*[text()= 'username'] </b> </p></li>
+                    </ul>
+                    <hr>
+
+                    <h5>18. How can we move to nth child element using XPath?</h5>
+                    <p>There are two ways of navigating to the nth element using Xpath </p>
+                    <ul class="orderedlist">
+                        <li>•	Using square brackets with index position-
+                           <p> Example - div[2] will find the second div element.</p>
+                            </li>
+                        <li>Using position()) 
+                            <p>Example - div[position()=3] will find the third div element. </p></li>
+                    </ul>
+                    <hr>
+
+                    <h5>19. What is the syntax of finding elements by class using CSS Selector?</h5>
+                    <p>By .className we can select all the element belonging to a particular class   
+                            e.g. ‘inputtext’ will select all elements having class ‘inputtext’.</p>
+                            <div class="hero-content-image">
+                                <img src="./s1.png" alt="">
+                            </div>
+                     <hr>
+                     
+                     <h5>20. What is the syntax of finding elements by id using CSS Selector?</h5>
+                     <ul class="orderedlist">
+                        <li>By #idValue we can select all the elements belonging to a particular id </li>
+                        <li>E.g. ‘#u_0_n’ will select the element having id u_0_n.</li>
+                     </ul>
+                     <div class="hero-content-image">
+                        <img src="./s2.png" alt="">
+                    </div>
+                    <hr>
+
+                    <h5></h5>
                 </div>
                     
                 </div>
