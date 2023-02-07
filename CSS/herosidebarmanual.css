@@ -13,8 +13,9 @@
 
 
 .hero-sidebar-manual-container.manual-show-sidebar {
-    left: 0%;
+    /* right: 0px; */
     opacity: 1;
+    left: 0px;
 }
 .hero-sidebar-manual-container .logo-section {
     filter: invert(1);
